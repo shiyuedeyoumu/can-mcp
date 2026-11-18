@@ -1,0 +1,12 @@
+VERSION ""
+NS_ :
+BS_:
+BU_: ECU
+BO_ 256 EngineData: 8 ECU
+ SG_ EngineSpeed : 0|16@1+ (0.25,0) [0|16383.75] "rpm" Vector__XXX
+ SG_ CoolantTemp : 16|8@1+ (1,-40) [-40|215] "degC" Vector__XXX
+ SG_ ThrottlePos : 24|8@1+ (0.392,0) [0|100] "%" Vector__XXX
+BO_ 512 VehicleStatus: 8 ECU
+ SG_ VehicleSpeed : 0|16@1+ (0.01,0) [0|655.35] "km/h" Vector__XXX
+ SG_ Gear : 16|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ BrakeActive : 20|1@1+ (1,0) [0|1] "" Vector__XXX

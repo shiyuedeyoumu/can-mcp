@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+uploads/*
+!uploads/.gitkeep
+uploads/.staging/
+can_vt.csv
+
+# Vehicle-specific data and binaries are not part of the public source release.
+tests/*.cdd
+tests/*.dll
+tests/j1939.dbc
