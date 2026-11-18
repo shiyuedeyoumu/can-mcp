@@ -1,4 +1,4 @@
-# CAN MCP
+# can-mcp
 
 基于 MCP 与 `python-can` 的 CAN/CAN FD 服务框架，支持按需连接 PCAN 或 Vector 硬件；CAN 收发、trace 和筛选不依赖具体厂商，可通过 `python-can` 后端扩展其他设备。
 
